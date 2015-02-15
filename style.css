@@ -1,13 +1,68 @@
-
+body{
+	 overflow-x: hidden;
+}
 
 .message{
 	width: 100%;
-	height: 550px;
+	height: 600px;
 	background-repeat:no-repeat;
-	background-image: url(img/pizza.jpg);
+	background-image: url(img/pizza3.jpg);
 	background-size: cover;
 	background-attachment: fixed;
 	background-position: center;
+}
+
+.intro{
+	margin-top: 40px;
+}
+
+.intro a{
+    color: #fff;
+    text-decoration: none;
+    background-color: #E87E04;
+    font-size: 1.5em;
+    display: block;
+    padding: 12px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    -webkit-box-shadow: 0px 7px 0px #9e4e03;
+    -moz-box-shadow:0px 7px 0px #9e4e03;
+    box-shadow: 0px 7px 0px #9e4e03;
+    margin: 30px auto;
+	  width: 160px;
+	  text-align: center;
+	
+	-webkit-transition: all .1s ease;
+	-moz-transition: all .1s ease;
+	-ms-transition: all .1s ease;
+	-o-transition: all .1s ease;
+	transition: all .1s ease;
+}
+
+.intro a:active{
+	-webkit-box-shadow: 0px 3px 0px #9e4e03;
+    -moz-box-shadow: 0px 3px 0px #9e4e03;
+    box-shadow: 0px 3px 0px #9e4e03;
+    position: relative;
+    top: 6px;
+}
+
+.intro a:focus {outline:0;}
+
+
+.ui.modal > .header{
+	background-color: #E87E04;
+	color: #FFF;
+}
+
+.message h1{
+	color: #FFF;
+	font-size: 3em;
+}
+
+.message h2{
+	color: #F3F3F3;
 }
 
 #placeholder{

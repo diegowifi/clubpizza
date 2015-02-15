@@ -5,6 +5,7 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>El Club de la Pizza</title>
+		<script src="bower_components/jquery/dist/jquery.js"></script>
 		<link rel="stylesheet" href="bower_components/semantic-ui/dist/semantic.css">
 		<link rel="stylesheet" href="style.css">
 	</head>
@@ -14,23 +15,53 @@
 		<div class="ui grid">
 			<div class="sixteen wide column message">
 				<div class="ui centered grid">
-					<div class="fourteen wide column">
-						<h1>El Club de la Pizza</h1>
+					<div class="fourteen wide column intro">
+						<div class="ui right aligned grid">
+						    <div class="left floated left aligned six wide column">
+						      <div class="ui">
+						        <h1>El Club de la Pizza</h1>
+								<h2>La pizza nos une, rompe fronteras y cinturones, estamos en busca de la pizza perfecta.</h2>
+						      </div>
+						    </div>
+						</div>
+						
+							<a id="action" href="#">Unirse al club</a>
+
+
+						<div class="ui modal register">
+						  <i class="close icon"></i>
+						  <div class="header">
+						    Bienvenido al paraíso
+						  </div>
+						  <div class="content">
+							  <div class="ui medium image">
+						        <img src="http://data.whicdn.com/images/55445275/tumblr_me6xuqSZ4u1rm8dv5o1_400_large.gif" class="hoverZoomLink">
+						      </div>
+						    <div class="description">
+						      A description can appear on the right
+						    </div>
+						  </div>
+						  <div class="actions">
+						    <div class="ui button">Cancel</div>
+						    <div class="ui button">OK</div>
+						  </div>
+						</div>
+						
 					</div>
 				</div>			
 			</div>
 		</div>
 
-		<div class="ui centered grid">
+		<div class="ui stackable fourteen centered grid">
 			<div class="four wide column">
 			<h3>¿Qué es?</h3>
-			<img id="placeholder" src="img/placeholder.jpg" alt="">
+			<img id="placeholder" src="http://data2.whicdn.com/images/58160459/large.jpg" alt="">
 			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus ab soluta consectetur blanditiis minus, ipsum magnam corrupti placeat sunt quos temporibus reiciendis accusamus provident natus. Rem magnam maxime, quod suscipit!</p>
 			</div>
 			<div class="one wide column"></div>
 			<div class="four wide column">
 			<h3>¿Qué han hecho?</h3>
-			<img id="placeholder" src="img/placeholder.jpg" alt="">
+			<img id="placeholder" src="https://33.media.tumblr.com/c459cfc19398a96a0b3f120cdfcacfe3/tumblr_ngpmr7b7TP1qawlm6o1_500.gif" alt="">
 			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus ab soluta consectetur blanditiis minus, ipsum magnam corrupti placeat sunt quos temporibus reiciendis accusamus provident natus. Rem magnam maxime, quod suscipit!</p>
 			</div>
 			<div class="one wide column"></div>
@@ -41,11 +72,7 @@
 			</div>
 		</div>
 
-		
-		<script src="bower_components/jquery/src/jquery.js"></script>
 		<script src="bower_components/semantic-ui/dist/semantic.js"></script>
-		<script>
-		  	$(document).foundation();
-		</script>
+		<script src="script.js"></script>
 	</body>
 </html>
