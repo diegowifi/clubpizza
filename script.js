@@ -6,6 +6,8 @@ $(document).ready(function() {
   		$('.ui.modal').modal('show');
 	});
 	
-
+	$('.ui.sticky').sticky({
+	    context: '#example1'
+	  });
 
 });

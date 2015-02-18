@@ -1,5 +1,5 @@
 body{
-	 overflow-x: hidden;
+	overflow-x: hidden;
 }
 
 .message{
@@ -13,22 +13,22 @@ body{
 }
 
 .intro{
-	margin-top: 40px;
+	padding-top: 40px;
 }
 
 .intro a{
     color: #fff;
-    text-decoration: none;
     background-color: #E87E04;
+    text-decoration: none;
     font-size: 1.5em;
     display: block;
     padding: 12px;
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
     border-radius: 5px;
-    -webkit-box-shadow: 0px 7px 0px #9e4e03;
-    -moz-box-shadow:0px 7px 0px #9e4e03;
-    box-shadow: 0px 7px 0px #9e4e03;
+    -webkit-box-shadow: 0px 5px 0px #9e4e03;
+    -moz-box-shadow:0px 5px 0px #9e4e03;
+    box-shadow: 0px 5px 0px #9e4e03;
     margin: 30px auto;
 	  width: 160px;
 	  text-align: center;
@@ -40,13 +40,14 @@ body{
 	transition: all .1s ease;
 }
 
-.intro a:active{
-	-webkit-box-shadow: 0px 3px 0px #9e4e03;
+.intro a:active {
+    -webkit-box-shadow: 0px 3px 0px #9e4e03;
     -moz-box-shadow: 0px 3px 0px #9e4e03;
     box-shadow: 0px 3px 0px #9e4e03;
     position: relative;
     top: 6px;
 }
+
 
 .intro a:focus {outline:0;}
 
@@ -78,4 +79,61 @@ h3{
 .next{
 	background-color: #F39C12;
 	color: #513707;
+}
+
+.ui.labeled.icon.buttons .button, .ui.labeled.icon.button{
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.next i{
+	font-size: 1.5em;
+	padding-bottom: 10px;
+}
+
+.next .button{
+	background-color: #C0392B;
+	padding-top:20px;
+	padding-bottom: 20px;
+	font-size: 1.2em;
+    -webkit-box-shadow: 0px 5px 0px #96281B;
+    -moz-box-shadow:0px 5px 0px #96281B;
+    box-shadow: 0px 5px 0px #96281B;
+	
+	-webkit-transition: all .1s ease;
+	-moz-transition: all .1s ease;
+	-ms-transition: all .1s ease;
+	-o-transition: all .1s ease;
+	transition: all .1s ease;
+}
+
+.next .button:hover{
+	background-color: #C0392B;
+}
+
+.next .button:active, .ui.button:active, .ui.active.button:active {
+    -webkit-box-shadow: 0px 3px 0px #96281B;
+    -moz-box-shadow: 0px 3px 0px #96281B;
+    box-shadow: 0px 3px 0px #96281B;
+    position: relative;
+    top: 6px;
+}
+
+.next .button:last-child{
+	margin-top: 18px;
+	margin-bottom: 5px;
+}
+
+.nxtbtn1{
+	padding-right: 6px !important;
+}
+
+.nxtbtn2{
+	padding-left: 6px !important;
+}
+
+.desc{
+	padding-bottom: 20px;
+	padding-top: 20px;
+	font-size: 1.05em;
 }
